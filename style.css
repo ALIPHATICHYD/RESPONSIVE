@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.45;
+}
+body header {
+  color: #FFFFFF;
+  background-color: #284b63;
+  padding: 80px 0;
+  text-align: center;
+}
+body header h1 {
+  font-size: 48px;
+  margin: 0 0 16px 0;
+}
+body header h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+body header .container {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  max-width: 900px;
+}
+body header .btn {
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  background: #549DA0;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+body header .btn:hover {
+  background: #468486;
+}
+body header .submenu {
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  position: absolute;
+  background-color: #549DA0;
+  min-width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+body header .submenu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+body header .submenu a:hover {
+  background-color: #468486;
+}
+body section {
+  text-align: center;
+  padding: 40px 0;
+}
+body section .features {
+  background: #FFFFFF;
+  color: #000000;
+}
+body section .feature {
+  width: 32%;
+  display: inline-block;
+  font-size: 16px;
+}
+body section .feature img {
+  width: 40%;
+}
+body .quote {
+  background: #549DA0;
+  color: #FFFFFF;
+}
+body .quote blockquote {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body .quote blockquote p {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+}
+body .quote blockquote cite {
+  font-size: 16px;
+  font-style: italic;
+}
+body .quote blockquote cite:before {
+  content: "–";
+  margin-right: 5px;
+}
+body footer {
+  background: #353535;
+  padding: 32px 0;
+  text-align: center;
+  color: #868686;
+  font-size: 12px;
+}
+body footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body footer li {
+  display: inline-block;
+}
+body footer li a {
+  padding: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #c3c3c3;
+}
+body footer li a:hover {
+  color: white;
+}
+@media (min-width: 300px), (max-width: 1500px) {
+  body .btn {
+    display: block;
+    font-size: 18px;
+  }
+  body h1 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+  }
+  body h2 {
+    font-size: 18px;
+  }
+  body section {
+    padding: 25px 0 15px 0;
+  }
+  body .submenu {
+    width: 10%;
+    position: relative;
+  }
+  body .feature {
+    width: 100%;
+    text-align: left;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .feature img {
+    width: 15%;
+    min-width: 60px;
+    margin-right: 20px;
+  }
+  body .quote {
+    padding: 30px 0;
+  }
+  body blockquote p {
+    font-size: 18px;
+  }
+  body blockquote cite {
+    font-size: 14px;
+  }
+  body footer {
+    padding: 30px 0 10px 0;
+  }
+  body footer li {
+    display: block;
+    margin: 5px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
